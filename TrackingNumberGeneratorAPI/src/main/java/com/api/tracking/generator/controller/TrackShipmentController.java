@@ -24,6 +24,7 @@ import com.api.tracking.generator.model.ResponseBean;
 @Validated
 public class TrackShipmentController {
 
+
 	@GetMapping("/{orderId}")
 	public ResponseEntity getTrackingNumber(@RequestParam String origin_country_id,
 			@RequestParam String destination_country_id,
