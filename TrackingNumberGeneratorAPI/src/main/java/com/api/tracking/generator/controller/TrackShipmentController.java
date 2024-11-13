@@ -27,7 +27,7 @@ public class TrackShipmentController {
 	@GetMapping("/{orderId}")
 	public ResponseEntity getTrackingNumber(@RequestParam String origin_country_id,
 			@RequestParam String destination_country_id,
-			@RequestParam /* @Digits(fraction = 3, integer = 0) */double weight, @RequestParam String created_at,
+			@RequestParam double weight, @RequestParam String created_at,
 			@RequestParam String customer_id, @RequestParam String customer_name, @RequestParam String customer_slug)
 			throws InvalidParameterException {
 
