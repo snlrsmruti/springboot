@@ -1,4 +1,4 @@
-package com.api.tracking.generator;
+package com.api.tracking.generator.exception;
 
 public class InvalidParameterException extends Throwable {
 	
